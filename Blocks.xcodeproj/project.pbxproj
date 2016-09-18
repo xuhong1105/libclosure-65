@@ -19,7 +19,6 @@
 		96EF759C1507C27500581A2E /* runtime.c in Sources */ = {isa = PBXBuildFile; fileRef = E86E1EC211543C0B0055083F /* runtime.c */; };
 		9F0100A41D82AE0D001F6F2E /* _simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100601D82AE0D001F6F2E /* _simple.h */; };
 		9F0100A51D82AE0D001F6F2E /* auto_zone.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100611D82AE0D001F6F2E /* auto_zone.h */; };
-		9F0100A61D82AE0D001F6F2E /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100621D82AE0D001F6F2E /* Block_private.h */; };
 		9F0100A71D82AE0D001F6F2E /* CrashReporterClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100631D82AE0D001F6F2E /* CrashReporterClient.h */; };
 		9F0100A81D82AE0D001F6F2E /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100651D82AE0D001F6F2E /* benchmark.h */; };
 		9F0100A91D82AE0D001F6F2E /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0100661D82AE0D001F6F2E /* private.h */; };
@@ -97,7 +96,6 @@
 		96EF75961507C1CE00581A2E /* libclosure.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libclosure.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0100601D82AE0D001F6F2E /* _simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _simple.h; sourceTree = "<group>"; };
 		9F0100611D82AE0D001F6F2E /* auto_zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auto_zone.h; sourceTree = "<group>"; };
-		9F0100621D82AE0D001F6F2E /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
 		9F0100631D82AE0D001F6F2E /* CrashReporterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporterClient.h; sourceTree = "<group>"; };
 		9F0100651D82AE0D001F6F2E /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
 		9F0100661D82AE0D001F6F2E /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
@@ -246,7 +244,6 @@
 			children = (
 				9F0100601D82AE0D001F6F2E /* _simple.h */,
 				9F0100611D82AE0D001F6F2E /* auto_zone.h */,
-				9F0100621D82AE0D001F6F2E /* Block_private.h */,
 				9F0100631D82AE0D001F6F2E /* CrashReporterClient.h */,
 				9F0100641D82AE0D001F6F2E /* dispatch */,
 				9F0100691D82AE0D001F6F2E /* libkern */,
@@ -437,7 +434,6 @@
 				9F0100D41D82AE0D001F6F2E /* tsd_private.h in Headers */,
 				9F0100C21D82AE0D001F6F2E /* machlimits.h in Headers */,
 				9F0100A41D82AE0D001F6F2E /* _simple.h in Headers */,
-				9F0100A61D82AE0D001F6F2E /* Block_private.h in Headers */,
 				9F0100B01D82AE0D001F6F2E /* notify_server.h in Headers */,
 				9F0100AA1D82AE0D001F6F2E /* queue_private.h in Headers */,
 				9F0100AC1D82AE0D001F6F2E /* OSCrossEndian.h in Headers */,
